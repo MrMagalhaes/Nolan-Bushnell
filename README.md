@@ -7,7 +7,7 @@ Iremos estar criando um aplicativo que possa mostrar um pouco da sua história e
 Além disso, será descrito suas maiores contribuições em duas empresas grandes, sendo elas: Chuck E. Cheese's e a Atari. Dentro da Atari sendo praticamente fundador e tendo uma grande participação dentro do Chuck E. Cheese's. Por último mostraremos suas participações em várias outras empresas (ele ja participou de muitas).
 
 # Súmario
-- <a href="https:/github.com/MrMagalhaes/Nolan-Bushnell/wiki/Biografia">Biografia</a>
+- <a href="https://github.com/MrMagalhaes/Nolan-Bushnell/wiki/Biografia">Biografia</a>
 
 - <a href="https://github.com/MrMagalhaes/Nolan-Bushnell/wiki/Descri%C3%A7%C3%A3o">Descrição</a>
 
