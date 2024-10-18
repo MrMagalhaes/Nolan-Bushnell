@@ -17,6 +17,4 @@ Além disso, será descrito suas maiores contribuições em duas empresas grande
 
 - <a href="https://github.com/MrMagalhaes/Nolan-Bushnell/wiki/Prot%C3%B3tipo">Protótipo</a>
 
-- <a href="https://github.com/MrMagalhaes/Nolan-Bushnell/wiki/Atari">Atari</a>
-
-- <a href="https://github.com/MrMagalhaes/Nolan-Bushnell/wiki/Chuck-E.-Cheese's">Chuck E. Cheese's</a>
+- <a href="https://github.com/MrMagalhaes/Nolan-Bushnell/wiki/Refer%C3%AAncias">Referências</a>
