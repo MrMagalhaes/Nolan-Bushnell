@@ -13,7 +13,7 @@ Além disso, será descrito suas maiores contribuições em duas empresas grande
 
 - <a href="https://github.com/MrMagalhaes/Nolan-Bushnell/wiki/Descri%C3%A7%C3%A3o">Descrição</a>
 
-- <a href="https://github.com/MrMagalhaes/Nolan-Bushnell/wiki/Diagrama">Diagrama</a>
+- <a href="https://github.com/MrMagalhaes/Nolan-Bushnell/wiki/Diagrama-de-Classe">Diagrama</a>
 
 - <a href="https://github.com/MrMagalhaes/Nolan-Bushnell/wiki/Prot%C3%B3tipo">Protótipo</a>
 
