@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
+import 'Premios.dart';
 
 class EmpresasScreen extends StatefulWidget {
   @override
@@ -14,6 +15,13 @@ class _EmpresasScreenState extends State<EmpresasScreen> {
       'logo':
           'https://www.dropbox.com/scl/fi/fo8l7cnr78h22c3lzqogn/377977607-299e19f6-6545-4ce1-97db-25a9f04f5f57-removebg-preview.png?rlkey=jgbsr4kpnlv1jyukrc0l6ybbj&st=dkd2g99s&raw=1',
       'url': 'https://www.ampex.com',
+      'descricao':
+          'empresa empresa\nempresa empresa\nempresa empresa\nempresa empresa',
+    },
+    {
+      'nome': 'CATALYST',
+      'logo': 'https://www.dropbox.com/s/...',
+      'url': 'https://www.catalyst.com',
       'descricao':
           'empresa empresa\nempresa empresa\nempresa empresa\nempresa empresa',
     },
@@ -88,8 +96,10 @@ class _EmpresasScreenState extends State<EmpresasScreen> {
           IconButton(
             icon: Icon(Icons.arrow_forward, color: Colors.black),
             onPressed: () {
-              Navigator.pushNamed(
-                  context, '/premios'); // Navegação para a tela Premios
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => PremiosScreen()),
+              ); // Adicione a navegação para a próxima tela aqui
             },
           ),
         ],

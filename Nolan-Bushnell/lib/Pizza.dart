@@ -43,9 +43,9 @@ class PizzaScreen extends StatelessWidget {
                 GestureDetector(
                   onTap: _launchURL,
                   child: Image.network(
-                    'https://www.dropbox.com/scl/fi/k56hhojr3g1j6tk27838y/download-removebg-preview.png?rlkey=eatcge0le9ew5srntitnc2bac&st=ttblygc5&raw=1',
-                    width: 80,
-                    height: 80,
+                    'https://www.dropbox.com/scl/fi/movqw5n14ubejxbuhkbn4/Chuck_E_Cheese_Logo-removebg-preview.png?rlkey=cme9dvdz3lusbg5mwz8rs45pl&st=9u6n0fdh&raw=1',
+                    width: 55,
+                    height: 55,
                   ),
                 ),
                 SizedBox(width: 10),

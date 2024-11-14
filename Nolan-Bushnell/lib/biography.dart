@@ -43,7 +43,7 @@ class BiographyScreen extends StatelessWidget {
               _buildBiographySection(
                 context,
                 imageUrl:
-                    'https://www.dropbox.com/scl/fi/q4n238b5iqrd2qfltdw8h/download.jpg?rlkey=zf4fasbven2ouyb6d73wu93r9&st=e7f8qu2b&raw=1',
+                    'https://www.dropbox.com/scl/fi/a4k6h001cieim8kg3pi4p/521622156-nolan-bushnell.webp?rlkey=guj1u1nhdf21bc2i8kn9qw60x&st=i6yvor5g&raw=1',
                 text:
                     'Nolan Kay Bushnell nasceu em Clearfield, Utah, Estados Unidos em 1943. Ele sempre teve um fascínio por tecnologia e eletrônica, o que o levou a estudar engenharia elétrica na Universidade de Utah. Durante seu tempo como estudante universitário, Bushnell começou a desenvolver um interesse por jogos de arcade e computadores, tendo sido exposto aos primeiros conceitos de computação gráfica e jogos eletrônicos em um ambiente acadêmico.',
               ),

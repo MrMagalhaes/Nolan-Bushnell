@@ -34,11 +34,11 @@ final loadingContent = LoadingContent(
   title: 'Nolan Bushnell',
   subtitle: 'Fundador da Atari\ne do Chuck E. Cheese\'s',
   imageUrl:
-      'https://www.dropbox.com/scl/fi/fmbh51en93buq179mmdbk/9287038539_d59388c3d6_b-removebg-preview.png?rlkey=l1q5ct0xdwr0iqz16xhs6spg0&st=nl6efltz&raw=1', // Substitua pela URL correta
+      'https://www.dropbox.com/scl/fi/fmbh51en93buq179mmdbk/9287038539_d59388c3d6_b-removebg-preview.png?rlkey=l1q5ct0xdwr0iqz16xhs6spg0&st=nl6efltz&raw=1',
   atariLogoUrl:
-      'https://www.dropbox.com/scl/fi/oh8ishryv0686czpbysi1/Atari.png?rlkey=tv7s2ddl0tz9qi0sty8ga32zo&st=68oyuckt&raw=1', // Substitua pela URL correta da logo da Atari
+      'https://www.dropbox.com/scl/fi/oh8ishryv0686czpbysi1/Atari.png?rlkey=tv7s2ddl0tz9qi0sty8ga32zo&st=68oyuckt&raw=1',
   chuckECheeseLogoUrl:
-      'https://www.dropbox.com/scl/fi/k56hhojr3g1j6tk27838y/download-removebg-preview.png?rlkey=eatcge0le9ew5srntitnc2bac&st=ttblygc5&raw=1', // Substitua pela URL correta da logo do Chuck E. Cheese
+      'https://www.dropbox.com/scl/fi/movqw5n14ubejxbuhkbn4/Chuck_E_Cheese_Logo-removebg-preview.png?rlkey=cme9dvdz3lusbg5mwz8rs45pl&st=9u6n0fdh&raw=1',
 );
 
 class LoadingScreen extends StatefulWidget {
