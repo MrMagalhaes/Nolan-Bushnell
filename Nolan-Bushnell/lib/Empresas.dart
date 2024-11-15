@@ -71,10 +71,11 @@ class _EmpresasScreenState extends State<EmpresasScreen> {
   ];
 
   void _launchURL(String url) async {
-    if (await canLaunch(url)) {
+    if (url.isNotEmpty && await canLaunch(url)) {
       await launch(url);
     } else {
-      throw 'Não foi possível abrir o link $url';
+      // URL vazia ou inválida
+      print('Não foi possível abrir o link $url');
     }
   }
 
@@ -128,7 +129,7 @@ class _EmpresasScreenState extends State<EmpresasScreen> {
               Navigator.push(
                 context,
                 MaterialPageRoute(builder: (context) => PremiosScreen()),
-              ); // Adicione a navegação para a próxima tela aqui
+              ); // Navegação para a próxima tela
             },
           ),
         ],
@@ -144,17 +145,24 @@ class _EmpresasScreenState extends State<EmpresasScreen> {
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: List.generate(2, (index) {
                   int empresaIndex = (currentIndex + index) % empresas.length;
+                  final empresa = empresas[empresaIndex];
+
                   return GestureDetector(
-                    onTap: () => _launchURL(empresas[empresaIndex]['url']),
+                    onTap: empresa['url'] != null && empresa['url']!.isNotEmpty
+                        ? () => _launchURL(empresa['url'])
+                        : null,
                     child: Column(
                       mainAxisSize: MainAxisSize.min,
                       children: [
-                        Image.network(
-                          empresas[empresaIndex]['logo'],
-                          width: 100,
-                          height: 80,
-                          fit: BoxFit.contain,
-                        ),
+                        empresa['logo'] != null
+                            ? Image.network(
+                                empresa['logo'],
+                                width: 100,
+                                height: 80,
+                                fit: BoxFit.contain,
+                              )
+                            : Icon(Icons.image_not_supported, size: 80),
+                        Text(empresa['nome'] ?? ''),
                       ],
                     ),
                   );
