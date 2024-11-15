@@ -11,15 +11,35 @@ class _PremiosScreenState extends State<PremiosScreen> {
   final List<Map<String, dynamic>> premios = [
     {
       'nome': 'IEEE Masaru Ibuka Award',
-      'imagem': 'https://www.dropbox.com/scl/fi/sampleaward1.png?raw=1',
-      'descricao': 'prêmios prêmios\nprêmios prêmios',
+      'imagem':
+          'https://www.dropbox.com/scl/fi/pg3k7x272ws5rtcdae5wz/Ulrich_Reimers_IEEE_Masaru_Ibuka_Award_Medaille.jpg?rlkey=l1p52bik9gmym58blvd68vwmk&st=voyp7tug&raw=1',
     },
     {
-      'nome': 'Exemplo de Prêmio 2',
-      'imagem': 'https://www.dropbox.com/scl/fi/sampleaward2.png?raw=1',
-      'descricao': 'prêmios prêmios\nprêmios prêmios',
+      'nome': 'British Academy of Film and Television Arts',
+      'imagem':
+          'https://www.dropbox.com/scl/fi/yq3s99mndgol6bea9uz00/png-transparent-65th-british-academy-film-awards-69th-british-academy-film-awards-mel-brooks-british-academy-of-film-and-television-arts-award-television-stone-carving-head.png?rlkey=dv6i59l5ivyzh900zlt8whvr6&st=nd77utz7&raw=1',
     },
-    // Adicione mais prêmios aqui
+    {
+      'nome':
+          'Video Game Hall of Fame (International Center for the History of Electronic Games)',
+      'imagem':
+          'https://www.dropbox.com/scl/fi/zpnbvmyvcofiy202uffjh/2019-Logo.webp?rlkey=e1c4ugniwrw60q7w7ko1k9esb&st=9m1k7wzv&raw=1',
+    },
+    {
+      'nome': 'Golden Joystick Awards - Lifetime Achievement Award ',
+      'imagem':
+          'https://www.dropbox.com/scl/fi/z7ffvdx5olsrv10jup1yv/goldenjoystick1.jpg?rlkey=avj9rvr0tv18meo7pxn4w6d3a&st=oamiki2z&raw=1',
+    },
+    {
+      'nome': 'AIAS Pioneer Award ',
+      'imagem':
+          'https://www.dropbox.com/scl/fi/apz7l3e9i5spacml8omxl/PioneerAward.jpg?rlkey=l8rf2hpmzlkhdt01yawinoqbs&st=hp48sr9t&raw=1',
+    },
+    {
+      'nome': 'Academy of Interactive Arts and Sciences (AIAS) Hall of Fame',
+      'imagem':
+          'https://www.dropbox.com/scl/fi/v6950p0wb41xz22wjm2qq/1282440-aias1.jpg?rlkey=km9hsxhqczczg61ttfenivoux&st=sgopsrig&raw=1',
+    },
   ];
 
   @override
@@ -89,12 +109,6 @@ class _PremiosScreenState extends State<PremiosScreen> {
                         width: 100,
                         height: 100,
                         fit: BoxFit.contain,
-                      ),
-                      SizedBox(height: 10),
-                      Text(
-                        premios[premioIndex]['descricao'],
-                        style: TextStyle(color: Colors.white, fontSize: 14),
-                        textAlign: TextAlign.center,
                       ),
                     ],
                   );
